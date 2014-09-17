@@ -76,9 +76,10 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:tabitem];
     }
     
-    Card *card = [_cardArray objectAtIndex:indexPath.row];
     
+    Card *card = [_cardArray objectAtIndex:indexPath.row];
     cell.textLabel.text = card.name;
+    
     cell.textLabel.textColor = [UIColor whiteColor];
     cell.backgroundColor = [UIColor blackColor];
     

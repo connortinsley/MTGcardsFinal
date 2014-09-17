@@ -28,6 +28,8 @@
     [fullSize setFrame:CGRectMake(50, 100, 200, 300)];
     fullSize.userInteractionEnabled = YES;
     [self.view addSubview:fullSize];
+    
+    [fullSize release];
 }
 
 //creates the label at the bottom that specifies the median price of a card
@@ -67,8 +69,6 @@
         
     [self drawCard];
     [self drawLabel];
-    
-    [fullSize release];
    
 }
 

@@ -25,7 +25,6 @@
 		0E01C4D019BE26A400444B07 /* NavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E01C4CF19BE26A400444B07 /* NavViewController.m */; };
 		0E01C53419BE84B100444B07 /* CellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E01C53219BE84B100444B07 /* CellViewController.m */; };
 		0E01C53519BE84B100444B07 /* CellViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E01C53319BE84B100444B07 /* CellViewController.xib */; };
-		0E9F3F2919C53503003715F4 /* magic_img.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0E9F3F2819C53503003715F4 /* magic_img.jpg */; };
 		0E9F3F2D19C53CA3003715F4 /* fire.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0E9F3F2C19C53CA3003715F4 /* fire.jpg */; };
 		1DBEFA3819C959D300721C5B /* dataInitializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DBEFA3719C959D300721C5B /* dataInitializer.m */; };
 		1DBEFA3B19C95D1A00721C5B /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DBEFA3A19C95D1A00721C5B /* Card.m */; };
@@ -68,7 +67,6 @@
 		0E01C53119BE84B100444B07 /* CellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellViewController.h; sourceTree = "<group>"; };
 		0E01C53219BE84B100444B07 /* CellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellViewController.m; sourceTree = "<group>"; };
 		0E01C53319BE84B100444B07 /* CellViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellViewController.xib; sourceTree = "<group>"; };
-		0E9F3F2819C53503003715F4 /* magic_img.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = magic_img.jpg; sourceTree = "<group>"; };
 		0E9F3F2C19C53CA3003715F4 /* fire.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fire.jpg; sourceTree = "<group>"; };
 		1DBEFA3619C959D300721C5B /* dataInitializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dataInitializer.h; sourceTree = "<group>"; };
 		1DBEFA3719C959D300721C5B /* dataInitializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dataInitializer.m; sourceTree = "<group>"; };
@@ -134,7 +132,6 @@
 			isa = PBXGroup;
 			children = (
 				0E9F3F2C19C53CA3003715F4 /* fire.jpg */,
-				0E9F3F2819C53503003715F4 /* magic_img.jpg */,
 				0E01C4A119BE194200444B07 /* AppDelegate.h */,
 				0E01C4A219BE194200444B07 /* AppDelegate.m */,
 				0E01C4A419BE194200444B07 /* Images.xcassets */,
@@ -304,7 +301,6 @@
 				0E01C49D19BE194200444B07 /* InfoPlist.strings in Resources */,
 				0E9F3F2D19C53CA3003715F4 /* fire.jpg in Resources */,
 				0E01C4CA19BE224B00444B07 /* MainViewController.xib in Resources */,
-				0E9F3F2919C53503003715F4 /* magic_img.jpg in Resources */,
 				0E01C53519BE84B100444B07 /* CellViewController.xib in Resources */,
 				0E01C4A519BE194200444B07 /* Images.xcassets in Resources */,
 			);
